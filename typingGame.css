@@ -7,7 +7,7 @@
 
 body {
     background-color: #353535;
-    font-family: 'Raleway', sans-serif;
+    font-family:'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
 }
 
 .wrapper {
@@ -22,10 +22,18 @@ body {
 
 h1 {
     color: #ecf0f1;
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -.05em;
+}
+
+h1 > span {
+    font-size: 45px;
+    font-weight: 300;
 }
 
 h1 + p {
-    margin-bottom: 5%;
+    margin: 2% 0 4% 0;
     color: #3498db;
 }
 
@@ -50,9 +58,9 @@ h1 + p {
 button {
     border: none;
     background-color: #FF7373;
-    box-shadow: 0px 5px 0px 0px #CE4646;
+    box-shadow: 4px 4px 0 0 lightpink;
     outline: none;
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 10px 15px;
     font-size: 22px;
     text-decoration: none;
@@ -66,7 +74,7 @@ button {
 button:active {
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
-    box-shadow: 0px 1px 0px 0px;
+    box-shadow: 0 1px 0 0;
 }
 
 .scoreWrap p, .scoreWrap span, .timeWrap p, .timeWrap span {
@@ -79,7 +87,7 @@ button:active {
 }
 
 .words span {
-    font-size: 60px;
-    letter-spacing: 1px;
+    font-size: 55px;
+    letter-spacing: -.03em;
     color: #ECF0F1;
 }
